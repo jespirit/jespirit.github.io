@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello World!</h1>
+    <header>
+        <h1>My Web Projects</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+            <h3>Categories</h3>
+            <ul>
+                <li><a href="#games-simulations">Games and Simulations</a></li>
+                <!-- Add more category links here -->
+            </ul>
+        </nav>
+        <main>
+            <section id="games-simulations" class="category">
+                <h2>Games and Simulations</h2>
+                <div class="project-grid">
+                    <div class="project-item">
+                        <a href="coin-counter/index.html">
+                            <img src="images/coin-counter-thumb.png" alt="Coin Counter Thumbnail">
+                            <h3>Coin Counter</h3>
+                            <p>A p5.js sketch that counts coins.</p>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="polygon-collision/index.html">
+                            <img src="images/polygon-collision-thumb.png" alt="Polygon Collision Thumbnail">
+                            <h3>Polygon Collision Detection</h3>
+                            <p>Detects collisions between polygons.</p>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="tile-puzzle/index.html">
+                            <img src="images/tile-puzzle-thumb.png" alt="Tile Puzzle Thumbnail">
+                            <h3>Tile Puzzle</h3>
+                            <p>A classic sliding tile puzzle game.</p>
+                        </a>
+                    </div>
+                    <div class="project-item">
+                        <a href="puzzle-8/index.html">
+                            <img src="images/puzzle-8-thumb.png" alt="Puzzle 8 Thumbnail">
+                            <h3>Puzzle 8</h3>
+                            <p>The 8-puzzle game implemented in p5.js.</p>
+                        </a>
+                    </div>
+                    <!-- Add more projects here -->
+                </div>
+            </section>
+            <!-- Add more categories here -->
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2025 Jeffrey Espiritu</p>
+    </footer>
 </body>
 </html>
